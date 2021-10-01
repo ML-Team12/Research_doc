@@ -1,9 +1,13 @@
 # Research_doc
   
-- [x] Blink Detection Research
-- [x] Posture Detection Research
-- [x] Face Mapping Research
-- [x] Changing Brightness Research
+- [x] Blink Detection Research -> Method 2
+- [x] Posture Detection Research -> Method 1
+- [x] Face Mapping Research -> Use Dlib library
+- [x] Changing Brightness Research -> screen-brightness-control
+- [ ] Room Brightness Detection + Suitable Brightness for Eyes Research
+- [ ] Let app run in background Research + Figma landing page
+- [ ] Optimization for Computer Vision Programs Research + Figma application interface
+- [ ] Average Blinking Rate Research + AI for Counting Blinking Rate Research
 - [ ] Tech-stack for Project
   
 Complete Documentation: [Docs](https://docs.google.com/document/d/1TrskTl7OxPtWn8PP7vaKnlWTEtmCDBYORCT_bzEswEM/edit)
