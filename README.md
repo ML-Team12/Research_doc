@@ -4,11 +4,11 @@
 - [x] Posture Detection Research -> Method 1
 - [x] Face Mapping Research -> Use Dlib library
 - [x] Changing Brightness Research -> screen-brightness-control
-- [ ] Room Brightness Detection + Suitable Brightness for Eyes Research
-- [ ] Let app run in background Research + Figma landing page
-- [ ] Optimization for Computer Vision Programs Research + Figma application interface
-- [ ] Average Blinking Rate Research + AI for Counting Blinking Rate Research
-- [ ] Tech-stack for Project
+- [x] Room Brightness Detection + Suitable Brightness for Eyes Research
+- [x] Let app run in background Research + Figma landing page
+- [x] Optimization for Computer Vision Programs Research + Figma application interface
+- [x] Average Blinking Rate Research + AI for Counting Blinking Rate Research
+- [x] Tech-stack for Project
   
 Complete Documentation: [Docs](https://docs.google.com/document/d/1TrskTl7OxPtWn8PP7vaKnlWTEtmCDBYORCT_bzEswEM/edit)
   
@@ -113,3 +113,32 @@ Landing page:
 Product:
 - ML/DL/CV Mode -> Python
 - App development -> (?)
+
+## Room Brightness Detection + Suitable Brightness for Eyes
+Language: Python  
+Library: imutils, dlib, cv2 and numpy  
+URL: [Here](https://stackoverflow.com/questions/14243472/estimate-brightness-of-an-image-opencv)  
+  
+Brightness is measured in candelas per meter squared (cd/m^2) or nits  
+Office with 300-500 lux -> Display brightness around 100-150 cd/m^2  
+Best to have max brightness at 60  
+
+## App Running in Background
+Language: Python
+Library: Supervisor
+URL: [here](http://supervisord.org/introduction.html)
+URL - windows: [here](https://pypi.org/project/supervisor-win/)
+
+## Optimization for Computer Vision Programs
+Language: Python  
+Library: SSE2 and AVX  
+Requirements: [Here](https://www.mathworks.com/matlabcentral/answers/93455-what-is-the-sse2-instruction-set-how-can-i-check-to-see-if-my-processor-supports-it) [Here](https://archived.docs.singlestore.com/v7.1/reference/configuration-reference/cluster-configuration-reference/instruction-set-verification/)  
+  
+Extra informations: [Tips when coding](https://stackoverflow.com/questions/7622672/getting-better-performance-using-opencv)  
+
+## Average Blinking Rate
+Mean blink rates for the computer and hard copy conditions were 14.64 & 13.12 blinks per minute, respectively (p < 0.001). A significantly higher score of ocular symptoms was observed for the computer condition (p < 0.001).  
+URL: [Here](https://juniperpublishers.com/jojo/JOJO.MS.ID.555736.php)  
+  
+Normal blinking rate is 15-20 minutes per minute  
+URL: [Here](https://www.healthline.com/health/how-many-times-do-you-blink-a-day#signs-of-a-problem)  
