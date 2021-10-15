@@ -40,9 +40,9 @@ Methods:
 Conclusion: Both methods are roughly the same, we can test both and find which one performs better (Accuray and Loading Time)  
 
 ## Posture Detection Research
-Language: Javascript and Python
-Library: OpenPose (Python)
-Methods:
+Language: Javascript and Python  
+Library: OpenPose (Python)  
+Methods:  
 
 **1st Method: Use front face for posture detection (JS)**
 > Steps:
@@ -74,7 +74,7 @@ Relevant Links:
 ## Face Mapping Research
 Language: Python  
 Library: MediaPipe, Dlib and OpenCV  
-Methods:
+Methods:  
 
 **1st Method: Combine libraries function to map face**
 > Steps:  
@@ -90,8 +90,8 @@ Methods:
 
 ## Changing Brightness Research
 Language: Python  
-Library: screen_brigthness_control
-Methods:
+Library: screen_brigthness_control  
+Methods:  
 
 **1st Method: Get and change current laptop's brightness**
 > Steps:  
