@@ -124,10 +124,10 @@ Office with 300-500 lux -> Display brightness around 100-150 cd/m^2
 Best to have max brightness at 60  
 
 ## App Running in Background
-Language: Python
-Library: Supervisor
-URL: [here](http://supervisord.org/introduction.html)
-URL - windows: [here](https://pypi.org/project/supervisor-win/)
+Language: Python  
+Library: Supervisor  
+URL: [here](http://supervisord.org/introduction.html)  
+URL - windows: [here](https://pypi.org/project/supervisor-win/)  
 
 ## Optimization for Computer Vision Programs
 Language: Python  
